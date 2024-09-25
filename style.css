@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFFFFF; /* Brightened the background */
+  margin: 0;
+  padding: 20px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #2C3E50; /* Dark navy for better contrast */
+}
+
+section {
+  margin: 20px 0;
+}
+
+form {
+  background-color: #F0FBFF; /* Softer, cooler light blue */
+  padding: 20px;
+  border: 1px solid #2980B9; /* Lighter blue for a cleaner border */
+  border-radius: 5px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  color: #2C3E50; /* Dark navy for text */
+}
+
+form input,
+form select {
+  width: 98.5%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #2980B9; /* Blue border for inputs */
+  border-radius: 4px;
+  background-color: #EAF6FF; /* Light background for inputs */
+}
+
+button {
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #E74C3C; /* Vibrant red for buttons */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #C0392B; /* Darker red on hover */
+}
+
+#employeeList li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  background-color: #F7F9F9; /* Light background for list */
+  color: #2C3E50; /* Dark navy for text */
+}
+
+#employeeList a {
+  text-decoration: none;
+  color: #2980B9; /* Blue for links */
+}
+
+#employeeList a:hover {
+  text-decoration: underline;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #FFFFFF; /* White table background */
+}
+
+table th,
+table td {
+  border: 1px solid #2980B9; /* Blue borders */
+  padding: 12px;
+  text-align: left;
+  color: #2C3E50; /* Dark navy for text */
+}
+
+table tr:nth-child(even) {
+  background-color: #ECF5FF; /* Light blue for even rows */
+}
+
+.bold {
+  font-weight: bold;
+  color: #E74C3C; /* Red for bold elements */
+}
+
+#backcolor {
+  background-color: #3498DB; /* Bright blue background */
+  color: white;
+}
+
+.emp {
+  color: #2C3E50; /* Dark navy for employee text */
+}
+
